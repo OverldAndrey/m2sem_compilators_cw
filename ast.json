@@ -1,0 +1,1496 @@
+{
+    "isEmpty": false,
+    "getClassName": "Script",
+    "startingSequence": {
+        "isEmpty": false,
+        "getClassName": "Sequence",
+        "temps": {
+            "isEmpty": false,
+            "getClassName": "Temps",
+            "identifiers": [
+                "item",
+                "swap",
+                "itemCount",
+                "hasChanged",
+                "fact"
+            ]
+        },
+        "statements": {
+            "isEmpty": false,
+            "getClassName": "Statements",
+            "expressions": [
+                {
+                    "isEmpty": false,
+                    "getClassName": "Message",
+                    "receiver": {
+                        "isEmpty": false,
+                        "getClassName": "LiteralArray",
+                        "obj": {
+                            "oClass": {
+                                "className": "Class",
+                                "base": {
+                                    "className": "Object",
+                                    "classMethods": [
+                                        "new"
+                                    ]
+                                },
+                                "classMethods": [],
+                                "instanceMethods": []
+                            },
+                            "className": "Array",
+                            "base": {
+                                "className": "Object",
+                                "classMethods": [
+                                    "new"
+                                ]
+                            },
+                            "classMethods": [],
+                            "instanceMethods": [
+                                "at:",
+                                "copy",
+                                "put:",
+                                "size",
+                                "do:"
+                            ]
+                        },
+                        "elements": [
+                            {
+                                "isEmpty": false,
+                                "getClassName": "Integer",
+                                "obj": {
+                                    "oClass": {
+                                        "className": "Class",
+                                        "base": {
+                                            "className": "Object",
+                                            "classMethods": [
+                                                "new"
+                                            ]
+                                        },
+                                        "classMethods": [],
+                                        "instanceMethods": []
+                                    },
+                                    "className": "Integer",
+                                    "base": {
+                                        "className": "Object",
+                                        "classMethods": [
+                                            "new"
+                                        ]
+                                    },
+                                    "classMethods": [],
+                                    "instanceMethods": [
+                                        "ifTrue:"
+                                    ]
+                                },
+                                "value": 1
+                            },
+                            {
+                                "isEmpty": false,
+                                "getClassName": "Integer",
+                                "obj": {
+                                    "oClass": {
+                                        "className": "Class",
+                                        "base": {
+                                            "className": "Object",
+                                            "classMethods": [
+                                                "new"
+                                            ]
+                                        },
+                                        "classMethods": [],
+                                        "instanceMethods": []
+                                    },
+                                    "className": "Integer",
+                                    "base": {
+                                        "className": "Object",
+                                        "classMethods": [
+                                            "new"
+                                        ]
+                                    },
+                                    "classMethods": [],
+                                    "instanceMethods": [
+                                        "ifTrue:"
+                                    ]
+                                },
+                                "value": 5
+                            },
+                            {
+                                "isEmpty": false,
+                                "getClassName": "Integer",
+                                "obj": {
+                                    "oClass": {
+                                        "className": "Class",
+                                        "base": {
+                                            "className": "Object",
+                                            "classMethods": [
+                                                "new"
+                                            ]
+                                        },
+                                        "classMethods": [],
+                                        "instanceMethods": []
+                                    },
+                                    "className": "Integer",
+                                    "base": {
+                                        "className": "Object",
+                                        "classMethods": [
+                                            "new"
+                                        ]
+                                    },
+                                    "classMethods": [],
+                                    "instanceMethods": [
+                                        "ifTrue:"
+                                    ]
+                                },
+                                "value": -3
+                            },
+                            {
+                                "isEmpty": false,
+                                "getClassName": "Integer",
+                                "obj": {
+                                    "oClass": {
+                                        "className": "Class",
+                                        "base": {
+                                            "className": "Object",
+                                            "classMethods": [
+                                                "new"
+                                            ]
+                                        },
+                                        "classMethods": [],
+                                        "instanceMethods": []
+                                    },
+                                    "className": "Integer",
+                                    "base": {
+                                        "className": "Object",
+                                        "classMethods": [
+                                            "new"
+                                        ]
+                                    },
+                                    "classMethods": [],
+                                    "instanceMethods": [
+                                        "ifTrue:"
+                                    ]
+                                },
+                                "value": -7
+                            },
+                            {
+                                "isEmpty": false,
+                                "getClassName": "Integer",
+                                "obj": {
+                                    "oClass": {
+                                        "className": "Class",
+                                        "base": {
+                                            "className": "Object",
+                                            "classMethods": [
+                                                "new"
+                                            ]
+                                        },
+                                        "classMethods": [],
+                                        "instanceMethods": []
+                                    },
+                                    "className": "Integer",
+                                    "base": {
+                                        "className": "Object",
+                                        "classMethods": [
+                                            "new"
+                                        ]
+                                    },
+                                    "classMethods": [],
+                                    "instanceMethods": [
+                                        "ifTrue:"
+                                    ]
+                                },
+                                "value": -32
+                            },
+                            {
+                                "isEmpty": false,
+                                "getClassName": "Integer",
+                                "obj": {
+                                    "oClass": {
+                                        "className": "Class",
+                                        "base": {
+                                            "className": "Object",
+                                            "classMethods": [
+                                                "new"
+                                            ]
+                                        },
+                                        "classMethods": [],
+                                        "instanceMethods": []
+                                    },
+                                    "className": "Integer",
+                                    "base": {
+                                        "className": "Object",
+                                        "classMethods": [
+                                            "new"
+                                        ]
+                                    },
+                                    "classMethods": [],
+                                    "instanceMethods": [
+                                        "ifTrue:"
+                                    ]
+                                },
+                                "value": 8
+                            },
+                            {
+                                "isEmpty": false,
+                                "getClassName": "Integer",
+                                "obj": {
+                                    "oClass": {
+                                        "className": "Class",
+                                        "base": {
+                                            "className": "Object",
+                                            "classMethods": [
+                                                "new"
+                                            ]
+                                        },
+                                        "classMethods": [],
+                                        "instanceMethods": []
+                                    },
+                                    "className": "Integer",
+                                    "base": {
+                                        "className": "Object",
+                                        "classMethods": [
+                                            "new"
+                                        ]
+                                    },
+                                    "classMethods": [],
+                                    "instanceMethods": [
+                                        "ifTrue:"
+                                    ]
+                                },
+                                "value": -4
+                            },
+                            {
+                                "isEmpty": false,
+                                "getClassName": "Integer",
+                                "obj": {
+                                    "oClass": {
+                                        "className": "Class",
+                                        "base": {
+                                            "className": "Object",
+                                            "classMethods": [
+                                                "new"
+                                            ]
+                                        },
+                                        "classMethods": [],
+                                        "instanceMethods": []
+                                    },
+                                    "className": "Integer",
+                                    "base": {
+                                        "className": "Object",
+                                        "classMethods": [
+                                            "new"
+                                        ]
+                                    },
+                                    "classMethods": [],
+                                    "instanceMethods": [
+                                        "ifTrue:"
+                                    ]
+                                },
+                                "value": 90
+                            },
+                            {
+                                "isEmpty": false,
+                                "getClassName": "Integer",
+                                "obj": {
+                                    "oClass": {
+                                        "className": "Class",
+                                        "base": {
+                                            "className": "Object",
+                                            "classMethods": [
+                                                "new"
+                                            ]
+                                        },
+                                        "classMethods": [],
+                                        "instanceMethods": []
+                                    },
+                                    "className": "Integer",
+                                    "base": {
+                                        "className": "Object",
+                                        "classMethods": [
+                                            "new"
+                                        ]
+                                    },
+                                    "classMethods": [],
+                                    "instanceMethods": [
+                                        "ifTrue:"
+                                    ]
+                                },
+                                "value": 2
+                            },
+                            {
+                                "isEmpty": false,
+                                "getClassName": "Integer",
+                                "obj": {
+                                    "oClass": {
+                                        "className": "Class",
+                                        "base": {
+                                            "className": "Object",
+                                            "classMethods": [
+                                                "new"
+                                            ]
+                                        },
+                                        "classMethods": [],
+                                        "instanceMethods": []
+                                    },
+                                    "className": "Integer",
+                                    "base": {
+                                        "className": "Object",
+                                        "classMethods": [
+                                            "new"
+                                        ]
+                                    },
+                                    "classMethods": [],
+                                    "instanceMethods": [
+                                        "ifTrue:"
+                                    ]
+                                },
+                                "value": 4
+                            },
+                            {
+                                "isEmpty": false,
+                                "getClassName": "Integer",
+                                "obj": {
+                                    "oClass": {
+                                        "className": "Class",
+                                        "base": {
+                                            "className": "Object",
+                                            "classMethods": [
+                                                "new"
+                                            ]
+                                        },
+                                        "classMethods": [],
+                                        "instanceMethods": []
+                                    },
+                                    "className": "Integer",
+                                    "base": {
+                                        "className": "Object",
+                                        "classMethods": [
+                                            "new"
+                                        ]
+                                    },
+                                    "classMethods": [],
+                                    "instanceMethods": [
+                                        "ifTrue:"
+                                    ]
+                                },
+                                "value": 2
+                            },
+                            {
+                                "isEmpty": false,
+                                "getClassName": "Integer",
+                                "obj": {
+                                    "oClass": {
+                                        "className": "Class",
+                                        "base": {
+                                            "className": "Object",
+                                            "classMethods": [
+                                                "new"
+                                            ]
+                                        },
+                                        "classMethods": [],
+                                        "instanceMethods": []
+                                    },
+                                    "className": "Integer",
+                                    "base": {
+                                        "className": "Object",
+                                        "classMethods": [
+                                            "new"
+                                        ]
+                                    },
+                                    "classMethods": [],
+                                    "instanceMethods": [
+                                        "ifTrue:"
+                                    ]
+                                },
+                                "value": 0
+                            },
+                            {
+                                "isEmpty": false,
+                                "getClassName": "Integer",
+                                "obj": {
+                                    "oClass": {
+                                        "className": "Class",
+                                        "base": {
+                                            "className": "Object",
+                                            "classMethods": [
+                                                "new"
+                                            ]
+                                        },
+                                        "classMethods": [],
+                                        "instanceMethods": []
+                                    },
+                                    "className": "Integer",
+                                    "base": {
+                                        "className": "Object",
+                                        "classMethods": [
+                                            "new"
+                                        ]
+                                    },
+                                    "classMethods": [],
+                                    "instanceMethods": [
+                                        "ifTrue:"
+                                    ]
+                                },
+                                "value": 7
+                            }
+                        ]
+                    },
+                    "varName": "item"
+                },
+                {
+                    "isEmpty": false,
+                    "getClassName": "Message",
+                    "receiver": {
+                        "isEmpty": false,
+                        "getClassName": "Block",
+                        "blockParamList": {
+                            "isEmpty": false,
+                            "getClassName": "BlockParams",
+                            "identifiers": [
+                                "indexOne",
+                                "indexTwo"
+                            ]
+                        },
+                        "sequence": {
+                            "isEmpty": false,
+                            "getClassName": "Sequence",
+                            "temps": {
+                                "isEmpty": false,
+                                "getClassName": "Temps",
+                                "identifiers": [
+                                    "temp"
+                                ]
+                            },
+                            "statements": {
+                                "isEmpty": false,
+                                "getClassName": "Statements",
+                                "expressions": [
+                                    {
+                                        "isEmpty": false,
+                                        "getClassName": "Message",
+                                        "receiver": {
+                                            "isEmpty": false,
+                                            "getClassName": "Variable",
+                                            "varName": "item",
+                                            "ref": {
+                                                "isEmpty": true,
+                                                "getClassName": "EmptyNode"
+                                            }
+                                        },
+                                        "chainedMessage": {
+                                            "isEmpty": false,
+                                            "getClassName": "KeywordMessage",
+                                            "arguments": [
+                                                {
+                                                    "isEmpty": false,
+                                                    "getClassName": "Message",
+                                                    "receiver": {
+                                                        "isEmpty": false,
+                                                        "getClassName": "Variable",
+                                                        "varName": "indexOne",
+                                                        "ref": {
+                                                            "isEmpty": true,
+                                                            "getClassName": "EmptyNode"
+                                                        }
+                                                    }
+                                                }
+                                            ],
+                                            "message": {
+                                                "name": "at:"
+                                            }
+                                        },
+                                        "varName": "temp"
+                                    },
+                                    {
+                                        "isEmpty": false,
+                                        "getClassName": "Message",
+                                        "receiver": {
+                                            "isEmpty": false,
+                                            "getClassName": "Variable",
+                                            "varName": "item",
+                                            "ref": {
+                                                "isEmpty": true,
+                                                "getClassName": "EmptyNode"
+                                            }
+                                        },
+                                        "chainedMessage": {
+                                            "isEmpty": false,
+                                            "getClassName": "KeywordMessage",
+                                            "arguments": [
+                                                {
+                                                    "isEmpty": false,
+                                                    "getClassName": "Message",
+                                                    "receiver": {
+                                                        "isEmpty": false,
+                                                        "getClassName": "Variable",
+                                                        "varName": "indexOne",
+                                                        "ref": {
+                                                            "isEmpty": true,
+                                                            "getClassName": "EmptyNode"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "isEmpty": false,
+                                                    "getClassName": "Message",
+                                                    "receiver": {
+                                                        "isEmpty": false,
+                                                        "getClassName": "Message",
+                                                        "receiver": {
+                                                            "isEmpty": false,
+                                                            "getClassName": "Variable",
+                                                            "varName": "item",
+                                                            "ref": {
+                                                                "isEmpty": true,
+                                                                "getClassName": "EmptyNode"
+                                                            }
+                                                        },
+                                                        "chainedMessage": {
+                                                            "isEmpty": false,
+                                                            "getClassName": "KeywordMessage",
+                                                            "arguments": [
+                                                                {
+                                                                    "isEmpty": false,
+                                                                    "getClassName": "Message",
+                                                                    "receiver": {
+                                                                        "isEmpty": false,
+                                                                        "getClassName": "Variable",
+                                                                        "varName": "indexTwo",
+                                                                        "ref": {
+                                                                            "isEmpty": true,
+                                                                            "getClassName": "EmptyNode"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "message": {
+                                                                "name": "at:"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            ],
+                                            "message": {
+                                                "name": "at:put:",
+                                                "retType": {
+                                                    "oClass": {
+                                                        "className": "Class",
+                                                        "base": {
+                                                            "className": "Object",
+                                                            "classMethods": [
+                                                                "new"
+                                                            ]
+                                                        },
+                                                        "classMethods": [],
+                                                        "instanceMethods": []
+                                                    },
+                                                    "className": "Integer",
+                                                    "base": {
+                                                        "className": "Object",
+                                                        "classMethods": [
+                                                            "new"
+                                                        ]
+                                                    },
+                                                    "classMethods": [],
+                                                    "instanceMethods": [
+                                                        "ifTrue:"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "isEmpty": false,
+                                        "getClassName": "Message",
+                                        "receiver": {
+                                            "isEmpty": false,
+                                            "getClassName": "Variable",
+                                            "varName": "item",
+                                            "ref": {
+                                                "isEmpty": true,
+                                                "getClassName": "EmptyNode"
+                                            }
+                                        },
+                                        "chainedMessage": {
+                                            "isEmpty": false,
+                                            "getClassName": "KeywordMessage",
+                                            "arguments": [
+                                                {
+                                                    "isEmpty": false,
+                                                    "getClassName": "Message",
+                                                    "receiver": {
+                                                        "isEmpty": false,
+                                                        "getClassName": "Variable",
+                                                        "varName": "indexTwo",
+                                                        "ref": {
+                                                            "isEmpty": true,
+                                                            "getClassName": "EmptyNode"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "isEmpty": false,
+                                                    "getClassName": "Message",
+                                                    "receiver": {
+                                                        "isEmpty": false,
+                                                        "getClassName": "Variable",
+                                                        "varName": "temp",
+                                                        "ref": {
+                                                            "isEmpty": true,
+                                                            "getClassName": "EmptyNode"
+                                                        }
+                                                    }
+                                                }
+                                            ],
+                                            "message": {
+                                                "name": "at:put:",
+                                                "retType": {
+                                                    "oClass": {
+                                                        "className": "Class",
+                                                        "base": {
+                                                            "className": "Object",
+                                                            "classMethods": [
+                                                                "new"
+                                                            ]
+                                                        },
+                                                        "classMethods": [],
+                                                        "instanceMethods": []
+                                                    },
+                                                    "className": "Integer",
+                                                    "base": {
+                                                        "className": "Object",
+                                                        "classMethods": [
+                                                            "new"
+                                                        ]
+                                                    },
+                                                    "classMethods": [],
+                                                    "instanceMethods": [
+                                                        "ifTrue:"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "obj": {
+                            "oClass": {
+                                "className": "Class",
+                                "base": {
+                                    "className": "Object",
+                                    "classMethods": [
+                                        "new"
+                                    ]
+                                },
+                                "classMethods": [],
+                                "instanceMethods": []
+                            },
+                            "className": "Block",
+                            "base": {
+                                "className": "Object",
+                                "classMethods": [
+                                    "new"
+                                ]
+                            },
+                            "classMethods": [],
+                            "instanceMethods": [
+                                "value:",
+                                "whileTrue"
+                            ]
+                        }
+                    },
+                    "varName": "swap"
+                },
+                {
+                    "isEmpty": false,
+                    "getClassName": "Message",
+                    "message": {
+                        "name": "size",
+                        "retType": {
+                            "oClass": {
+                                "className": "Class",
+                                "base": {
+                                    "className": "Object",
+                                    "classMethods": [
+                                        "new"
+                                    ]
+                                },
+                                "classMethods": [],
+                                "instanceMethods": []
+                            },
+                            "className": "Integer",
+                            "base": {
+                                "className": "Object",
+                                "classMethods": [
+                                    "new"
+                                ]
+                            },
+                            "classMethods": [],
+                            "instanceMethods": [
+                                "ifTrue:"
+                            ]
+                        }
+                    },
+                    "receiver": {
+                        "isEmpty": false,
+                        "getClassName": "Variable",
+                        "varName": "item",
+                        "ref": {
+                            "isEmpty": true,
+                            "getClassName": "EmptyNode"
+                        }
+                    },
+                    "varName": "itemCount"
+                },
+                {
+                    "isEmpty": false,
+                    "getClassName": "Message",
+                    "message": {
+                        "name": "whileTrue"
+                    },
+                    "receiver": {
+                        "isEmpty": false,
+                        "getClassName": "Block",
+                        "sequence": {
+                            "isEmpty": false,
+                            "getClassName": "Sequence",
+                            "statements": {
+                                "isEmpty": false,
+                                "getClassName": "Statements",
+                                "expressions": [
+                                    {
+                                        "isEmpty": false,
+                                        "getClassName": "Message",
+                                        "receiver": {
+                                            "isEmpty": false,
+                                            "getClassName": "Variable",
+                                            "varName": "false",
+                                            "ref": {
+                                                "isEmpty": true,
+                                                "getClassName": "EmptyNode"
+                                            },
+                                            "obj": {
+                                                "oClass": {
+                                                    "className": "Class",
+                                                    "base": {
+                                                        "className": "Object",
+                                                        "classMethods": [
+                                                            "new"
+                                                        ]
+                                                    },
+                                                    "classMethods": [],
+                                                    "instanceMethods": []
+                                                },
+                                                "className": "Boolean",
+                                                "base": {
+                                                    "className": "Object",
+                                                    "classMethods": [
+                                                        "new"
+                                                    ]
+                                                },
+                                                "classMethods": []
+                                            }
+                                        },
+                                        "varName": "hasChanged"
+                                    },
+                                    {
+                                        "isEmpty": false,
+                                        "getClassName": "BinaryMessage",
+                                        "operation": "-",
+                                        "secondOperand": {
+                                            "isEmpty": false,
+                                            "getClassName": "Message",
+                                            "receiver": {
+                                                "isEmpty": false,
+                                                "getClassName": "Integer",
+                                                "obj": {
+                                                    "oClass": {
+                                                        "className": "Class",
+                                                        "base": {
+                                                            "className": "Object",
+                                                            "classMethods": [
+                                                                "new"
+                                                            ]
+                                                        },
+                                                        "classMethods": [],
+                                                        "instanceMethods": []
+                                                    },
+                                                    "className": "Integer",
+                                                    "base": {
+                                                        "className": "Object",
+                                                        "classMethods": [
+                                                            "new"
+                                                        ]
+                                                    },
+                                                    "classMethods": [],
+                                                    "instanceMethods": [
+                                                        "ifTrue:"
+                                                    ]
+                                                },
+                                                "value": 1
+                                            }
+                                        },
+                                        "receiver": {
+                                            "isEmpty": false,
+                                            "getClassName": "Message",
+                                            "receiver": {
+                                                "isEmpty": false,
+                                                "getClassName": "Variable",
+                                                "varName": "itemCount",
+                                                "ref": {
+                                                    "isEmpty": true,
+                                                    "getClassName": "EmptyNode"
+                                                }
+                                            }
+                                        },
+                                        "varName": "itemCount"
+                                    },
+                                    {
+                                        "isEmpty": false,
+                                        "getClassName": "Message",
+                                        "receiver": {
+                                            "isEmpty": false,
+                                            "getClassName": "Integer",
+                                            "obj": {
+                                                "oClass": {
+                                                    "className": "Class",
+                                                    "base": {
+                                                        "className": "Object",
+                                                        "classMethods": [
+                                                            "new"
+                                                        ]
+                                                    },
+                                                    "classMethods": [],
+                                                    "instanceMethods": []
+                                                },
+                                                "className": "Integer",
+                                                "base": {
+                                                    "className": "Object",
+                                                    "classMethods": [
+                                                        "new"
+                                                    ]
+                                                },
+                                                "classMethods": [],
+                                                "instanceMethods": [
+                                                    "ifTrue:"
+                                                ]
+                                            },
+                                            "value": 1
+                                        },
+                                        "chainedMessage": {
+                                            "isEmpty": false,
+                                            "getClassName": "KeywordMessage",
+                                            "arguments": [
+                                                {
+                                                    "isEmpty": false,
+                                                    "getClassName": "Message",
+                                                    "receiver": {
+                                                        "isEmpty": false,
+                                                        "getClassName": "Variable",
+                                                        "varName": "itemCount",
+                                                        "ref": {
+                                                            "isEmpty": true,
+                                                            "getClassName": "EmptyNode"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "isEmpty": false,
+                                                    "getClassName": "Message",
+                                                    "receiver": {
+                                                        "isEmpty": false,
+                                                        "getClassName": "Block",
+                                                        "blockParamList": {
+                                                            "isEmpty": false,
+                                                            "getClassName": "BlockParams",
+                                                            "identifiers": [
+                                                                "index"
+                                                            ]
+                                                        },
+                                                        "sequence": {
+                                                            "isEmpty": false,
+                                                            "getClassName": "Sequence",
+                                                            "statements": {
+                                                                "isEmpty": false,
+                                                                "getClassName": "Statements",
+                                                                "expressions": [
+                                                                    {
+                                                                        "isEmpty": false,
+                                                                        "getClassName": "BinaryMessage",
+                                                                        "operation": ">",
+                                                                        "secondOperand": {
+                                                                            "isEmpty": false,
+                                                                            "getClassName": "Message",
+                                                                            "receiver": {
+                                                                                "isEmpty": false,
+                                                                                "getClassName": "Message",
+                                                                                "receiver": {
+                                                                                    "isEmpty": false,
+                                                                                    "getClassName": "Variable",
+                                                                                    "varName": "item",
+                                                                                    "ref": {
+                                                                                        "isEmpty": true,
+                                                                                        "getClassName": "EmptyNode"
+                                                                                    }
+                                                                                },
+                                                                                "chainedMessage": {
+                                                                                    "isEmpty": false,
+                                                                                    "getClassName": "KeywordMessage",
+                                                                                    "arguments": [
+                                                                                        {
+                                                                                            "isEmpty": false,
+                                                                                            "getClassName": "BinaryMessage",
+                                                                                            "operation": "+",
+                                                                                            "secondOperand": {
+                                                                                                "isEmpty": false,
+                                                                                                "getClassName": "Message",
+                                                                                                "receiver": {
+                                                                                                    "isEmpty": false,
+                                                                                                    "getClassName": "Integer",
+                                                                                                    "obj": {
+                                                                                                        "oClass": {
+                                                                                                            "className": "Class",
+                                                                                                            "base": {
+                                                                                                                "className": "Object",
+                                                                                                                "classMethods": [
+                                                                                                                    "new"
+                                                                                                                ]
+                                                                                                            },
+                                                                                                            "classMethods": [],
+                                                                                                            "instanceMethods": []
+                                                                                                        },
+                                                                                                        "className": "Integer",
+                                                                                                        "base": {
+                                                                                                            "className": "Object",
+                                                                                                            "classMethods": [
+                                                                                                                "new"
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        "classMethods": [],
+                                                                                                        "instanceMethods": [
+                                                                                                            "ifTrue:"
+                                                                                                        ]
+                                                                                                    },
+                                                                                                    "value": 1
+                                                                                                }
+                                                                                            },
+                                                                                            "receiver": {
+                                                                                                "isEmpty": false,
+                                                                                                "getClassName": "Message",
+                                                                                                "receiver": {
+                                                                                                    "isEmpty": false,
+                                                                                                    "getClassName": "Variable",
+                                                                                                    "varName": "index",
+                                                                                                    "ref": {
+                                                                                                        "isEmpty": true,
+                                                                                                        "getClassName": "EmptyNode"
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    ],
+                                                                                    "message": {
+                                                                                        "name": "at:"
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        "receiver": {
+                                                                            "isEmpty": false,
+                                                                            "getClassName": "Message",
+                                                                            "receiver": {
+                                                                                "isEmpty": false,
+                                                                                "getClassName": "Message",
+                                                                                "receiver": {
+                                                                                    "isEmpty": false,
+                                                                                    "getClassName": "Variable",
+                                                                                    "varName": "item",
+                                                                                    "ref": {
+                                                                                        "isEmpty": true,
+                                                                                        "getClassName": "EmptyNode"
+                                                                                    }
+                                                                                },
+                                                                                "chainedMessage": {
+                                                                                    "isEmpty": false,
+                                                                                    "getClassName": "KeywordMessage",
+                                                                                    "arguments": [
+                                                                                        {
+                                                                                            "isEmpty": false,
+                                                                                            "getClassName": "Message",
+                                                                                            "receiver": {
+                                                                                                "isEmpty": false,
+                                                                                                "getClassName": "Variable",
+                                                                                                "varName": "index",
+                                                                                                "ref": {
+                                                                                                    "isEmpty": true,
+                                                                                                    "getClassName": "EmptyNode"
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    ],
+                                                                                    "message": {
+                                                                                        "name": "at:"
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        "chainedMessage": {
+                                                                            "isEmpty": false,
+                                                                            "getClassName": "KeywordMessage",
+                                                                            "arguments": [
+                                                                                {
+                                                                                    "isEmpty": false,
+                                                                                    "getClassName": "Message",
+                                                                                    "receiver": {
+                                                                                        "isEmpty": false,
+                                                                                        "getClassName": "Block",
+                                                                                        "sequence": {
+                                                                                            "isEmpty": false,
+                                                                                            "getClassName": "Sequence",
+                                                                                            "statements": {
+                                                                                                "isEmpty": false,
+                                                                                                "getClassName": "Statements",
+                                                                                                "expressions": [
+                                                                                                    {
+                                                                                                        "isEmpty": false,
+                                                                                                        "getClassName": "Message",
+                                                                                                        "receiver": {
+                                                                                                            "isEmpty": false,
+                                                                                                            "getClassName": "Variable",
+                                                                                                            "varName": "swap",
+                                                                                                            "ref": {
+                                                                                                                "isEmpty": true,
+                                                                                                                "getClassName": "EmptyNode"
+                                                                                                            }
+                                                                                                        },
+                                                                                                        "chainedMessage": {
+                                                                                                            "isEmpty": false,
+                                                                                                            "getClassName": "KeywordMessage",
+                                                                                                            "arguments": [
+                                                                                                                {
+                                                                                                                    "isEmpty": false,
+                                                                                                                    "getClassName": "Message",
+                                                                                                                    "receiver": {
+                                                                                                                        "isEmpty": false,
+                                                                                                                        "getClassName": "Variable",
+                                                                                                                        "varName": "index",
+                                                                                                                        "ref": {
+                                                                                                                            "isEmpty": true,
+                                                                                                                            "getClassName": "EmptyNode"
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "isEmpty": false,
+                                                                                                                    "getClassName": "BinaryMessage",
+                                                                                                                    "operation": "+",
+                                                                                                                    "secondOperand": {
+                                                                                                                        "isEmpty": false,
+                                                                                                                        "getClassName": "Message",
+                                                                                                                        "receiver": {
+                                                                                                                            "isEmpty": false,
+                                                                                                                            "getClassName": "Integer",
+                                                                                                                            "obj": {
+                                                                                                                                "oClass": {
+                                                                                                                                    "className": "Class",
+                                                                                                                                    "base": {
+                                                                                                                                        "className": "Object",
+                                                                                                                                        "classMethods": [
+                                                                                                                                            "new"
+                                                                                                                                        ]
+                                                                                                                                    },
+                                                                                                                                    "classMethods": [],
+                                                                                                                                    "instanceMethods": []
+                                                                                                                                },
+                                                                                                                                "className": "Integer",
+                                                                                                                                "base": {
+                                                                                                                                    "className": "Object",
+                                                                                                                                    "classMethods": [
+                                                                                                                                        "new"
+                                                                                                                                    ]
+                                                                                                                                },
+                                                                                                                                "classMethods": [],
+                                                                                                                                "instanceMethods": [
+                                                                                                                                    "ifTrue:"
+                                                                                                                                ]
+                                                                                                                            },
+                                                                                                                            "value": 1
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    "receiver": {
+                                                                                                                        "isEmpty": false,
+                                                                                                                        "getClassName": "Message",
+                                                                                                                        "receiver": {
+                                                                                                                            "isEmpty": false,
+                                                                                                                            "getClassName": "Variable",
+                                                                                                                            "varName": "index",
+                                                                                                                            "ref": {
+                                                                                                                                "isEmpty": true,
+                                                                                                                                "getClassName": "EmptyNode"
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            ],
+                                                                                                            "message": {
+                                                                                                                "name": "value:value:",
+                                                                                                                "retType": {
+                                                                                                                    "className": "Object",
+                                                                                                                    "classMethods": [
+                                                                                                                        "new"
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            }
+                                                                                                        }
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "isEmpty": false,
+                                                                                                        "getClassName": "Message",
+                                                                                                        "receiver": {
+                                                                                                            "isEmpty": false,
+                                                                                                            "getClassName": "Variable",
+                                                                                                            "varName": "true",
+                                                                                                            "ref": {
+                                                                                                                "isEmpty": true,
+                                                                                                                "getClassName": "EmptyNode"
+                                                                                                            },
+                                                                                                            "obj": {
+                                                                                                                "oClass": {
+                                                                                                                    "className": "Class",
+                                                                                                                    "base": {
+                                                                                                                        "className": "Object",
+                                                                                                                        "classMethods": [
+                                                                                                                            "new"
+                                                                                                                        ]
+                                                                                                                    },
+                                                                                                                    "classMethods": [],
+                                                                                                                    "instanceMethods": []
+                                                                                                                },
+                                                                                                                "className": "Boolean",
+                                                                                                                "base": {
+                                                                                                                    "className": "Object",
+                                                                                                                    "classMethods": [
+                                                                                                                        "new"
+                                                                                                                    ]
+                                                                                                                },
+                                                                                                                "classMethods": []
+                                                                                                            }
+                                                                                                        },
+                                                                                                        "varName": "hasChanged"
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        },
+                                                                                        "obj": {
+                                                                                            "oClass": {
+                                                                                                "className": "Class",
+                                                                                                "base": {
+                                                                                                    "className": "Object",
+                                                                                                    "classMethods": [
+                                                                                                        "new"
+                                                                                                    ]
+                                                                                                },
+                                                                                                "classMethods": [],
+                                                                                                "instanceMethods": []
+                                                                                            },
+                                                                                            "className": "Block",
+                                                                                            "base": {
+                                                                                                "className": "Object",
+                                                                                                "classMethods": [
+                                                                                                    "new"
+                                                                                                ]
+                                                                                            },
+                                                                                            "classMethods": [],
+                                                                                            "instanceMethods": [
+                                                                                                "value:",
+                                                                                                "whileTrue"
+                                                                                            ]
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            ],
+                                                                            "message": {
+                                                                                "name": "ifTrue:"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        },
+                                                        "obj": {
+                                                            "oClass": {
+                                                                "className": "Class",
+                                                                "base": {
+                                                                    "className": "Object",
+                                                                    "classMethods": [
+                                                                        "new"
+                                                                    ]
+                                                                },
+                                                                "classMethods": [],
+                                                                "instanceMethods": []
+                                                            },
+                                                            "className": "Block",
+                                                            "base": {
+                                                                "className": "Object",
+                                                                "classMethods": [
+                                                                    "new"
+                                                                ]
+                                                            },
+                                                            "classMethods": [],
+                                                            "instanceMethods": [
+                                                                "value:",
+                                                                "whileTrue"
+                                                            ]
+                                                        }
+                                                    }
+                                                }
+                                            ],
+                                            "message": {
+                                                "name": "to:do:"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "isEmpty": false,
+                                        "getClassName": "Message",
+                                        "receiver": {
+                                            "isEmpty": false,
+                                            "getClassName": "Variable",
+                                            "varName": "hasChanged",
+                                            "ref": {
+                                                "isEmpty": true,
+                                                "getClassName": "EmptyNode"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "obj": {
+                            "oClass": {
+                                "className": "Class",
+                                "base": {
+                                    "className": "Object",
+                                    "classMethods": [
+                                        "new"
+                                    ]
+                                },
+                                "classMethods": [],
+                                "instanceMethods": []
+                            },
+                            "className": "Block",
+                            "base": {
+                                "className": "Object",
+                                "classMethods": [
+                                    "new"
+                                ]
+                            },
+                            "classMethods": [],
+                            "instanceMethods": [
+                                "value:",
+                                "whileTrue"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "isEmpty": false,
+                    "getClassName": "Message",
+                    "receiver": {
+                        "isEmpty": false,
+                        "getClassName": "Integer",
+                        "obj": {
+                            "oClass": {
+                                "className": "Class",
+                                "base": {
+                                    "className": "Object",
+                                    "classMethods": [
+                                        "new"
+                                    ]
+                                },
+                                "classMethods": [],
+                                "instanceMethods": []
+                            },
+                            "className": "Integer",
+                            "base": {
+                                "className": "Object",
+                                "classMethods": [
+                                    "new"
+                                ]
+                            },
+                            "classMethods": [],
+                            "instanceMethods": [
+                                "ifTrue:"
+                            ]
+                        },
+                        "value": 1
+                    },
+                    "chainedMessage": {
+                        "isEmpty": false,
+                        "getClassName": "KeywordMessage",
+                        "arguments": [
+                            {
+                                "isEmpty": false,
+                                "getClassName": "Message",
+                                "message": {
+                                    "name": "size",
+                                    "retType": {
+                                        "oClass": {
+                                            "className": "Class",
+                                            "base": {
+                                                "className": "Object",
+                                                "classMethods": [
+                                                    "new"
+                                                ]
+                                            },
+                                            "classMethods": [],
+                                            "instanceMethods": []
+                                        },
+                                        "className": "Integer",
+                                        "base": {
+                                            "className": "Object",
+                                            "classMethods": [
+                                                "new"
+                                            ]
+                                        },
+                                        "classMethods": [],
+                                        "instanceMethods": [
+                                            "ifTrue:"
+                                        ]
+                                    }
+                                },
+                                "receiver": {
+                                    "isEmpty": false,
+                                    "getClassName": "Variable",
+                                    "varName": "item",
+                                    "ref": {
+                                        "isEmpty": true,
+                                        "getClassName": "EmptyNode"
+                                    }
+                                }
+                            },
+                            {
+                                "isEmpty": false,
+                                "getClassName": "Message",
+                                "receiver": {
+                                    "isEmpty": false,
+                                    "getClassName": "Block",
+                                    "blockParamList": {
+                                        "isEmpty": false,
+                                        "getClassName": "BlockParams",
+                                        "identifiers": [
+                                            "index"
+                                        ]
+                                    },
+                                    "sequence": {
+                                        "isEmpty": false,
+                                        "getClassName": "Sequence",
+                                        "statements": {
+                                            "isEmpty": false,
+                                            "getClassName": "Statements",
+                                            "expressions": [
+                                                {
+                                                    "isEmpty": false,
+                                                    "getClassName": "Message",
+                                                    "message": {
+                                                        "name": "printfInt",
+                                                        "retType": {
+                                                            "oClass": {
+                                                                "className": "Class",
+                                                                "base": {
+                                                                    "className": "Object",
+                                                                    "classMethods": [
+                                                                        "new"
+                                                                    ]
+                                                                },
+                                                                "classMethods": [],
+                                                                "instanceMethods": []
+                                                            },
+                                                            "className": "Integer",
+                                                            "base": {
+                                                                "className": "Object",
+                                                                "classMethods": [
+                                                                    "new"
+                                                                ]
+                                                            },
+                                                            "classMethods": [],
+                                                            "instanceMethods": [
+                                                                "ifTrue:"
+                                                            ]
+                                                        }
+                                                    },
+                                                    "receiver": {
+                                                        "isEmpty": false,
+                                                        "getClassName": "Message",
+                                                        "receiver": {
+                                                            "isEmpty": false,
+                                                            "getClassName": "Variable",
+                                                            "varName": "item",
+                                                            "ref": {
+                                                                "isEmpty": true,
+                                                                "getClassName": "EmptyNode"
+                                                            }
+                                                        },
+                                                        "chainedMessage": {
+                                                            "isEmpty": false,
+                                                            "getClassName": "KeywordMessage",
+                                                            "arguments": [
+                                                                {
+                                                                    "isEmpty": false,
+                                                                    "getClassName": "Message",
+                                                                    "receiver": {
+                                                                        "isEmpty": false,
+                                                                        "getClassName": "Variable",
+                                                                        "varName": "index",
+                                                                        "ref": {
+                                                                            "isEmpty": true,
+                                                                            "getClassName": "EmptyNode"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "message": {
+                                                                "name": "at:"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "obj": {
+                                        "oClass": {
+                                            "className": "Class",
+                                            "base": {
+                                                "className": "Object",
+                                                "classMethods": [
+                                                    "new"
+                                                ]
+                                            },
+                                            "classMethods": [],
+                                            "instanceMethods": []
+                                        },
+                                        "className": "Block",
+                                        "base": {
+                                            "className": "Object",
+                                            "classMethods": [
+                                                "new"
+                                            ]
+                                        },
+                                        "classMethods": [],
+                                        "instanceMethods": [
+                                            "value:",
+                                            "whileTrue"
+                                        ]
+                                    }
+                                }
+                            }
+                        ],
+                        "message": {
+                            "name": "to:do:"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

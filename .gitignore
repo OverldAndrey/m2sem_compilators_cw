@@ -1,0 +1,10 @@
+/node_modules
+/smalltalk
+/LLVM-13.0.1-win64
+
+*.js
+*.ll
+
+*.docx
+
+ast-rpz.json
